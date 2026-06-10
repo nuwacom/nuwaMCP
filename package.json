@@ -1,0 +1,23 @@
+{
+  "name": "uipath-orchestrator-mcp-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UiPath Orchestrator MCP server for nuwacom agents — Vercel (Next.js + mcp-handler) edition.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mcp-handler": "^1.0.1",
+    "next": "^15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.0"
+  }
+}
