@@ -13,7 +13,6 @@ import { createMcpHandler } from "mcp-handler";
 import { tools } from "@/lib/tools";
 import { orchestrator } from "@/lib/orchestrator";
 
-export const maxDuration = 60; // seconds; raise to 800 on Vercel Pro/Enterprise if needed
 export const dynamic = "force-dynamic";
 
 const handler = createMcpHandler(
